@@ -1,0 +1,67 @@
+@media (max-width: 1400px) {
+    // Header 
+    .header {
+        &__logo {
+            margin-left: 25px;
+        }
+    }
+
+    // Promo
+    .promo__descr {
+        right: -15px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 902px) {
+    // Header 
+    .header {
+        &__list {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    // Promo
+    .promo__title {
+        margin-right: 10px;
+        z-index: 1000;
+    }
+    .promo__descr {
+        display: none;
+    }
+
+    // Button
+    .button {
+        &-more {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    // Promo
+    .promo {
+        padding-top: 30px;
+        &__wrapper {
+            padding-top: 60px;
+        }
+        &__title {
+            font-size: 130px;
+        }
+    }
+    
+     // Balls 
+    .pink-ball {
+        opacity: .4;
+    }
+}
+
+@media (max-width: 322px) {
+    .promo__wrapper {
+        padding-top: 10px;
+    }
+}
