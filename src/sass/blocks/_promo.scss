@@ -1,0 +1,35 @@
+.promo {
+    padding: 80px 0 94px 0;
+    min-height: 1060px;
+    background: url(../../img/promo-background.jpg) center center / cover no-repeat;
+    background-color: $first-color;
+    &__wrapper {
+        position: relative;
+        padding-top: 85px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        width: 345px;
+        margin-left: 20px;
+        font-size: 146px;
+        font-weight: 600;
+        line-height: 117px;
+        color: #fff;
+        text-align: right;
+        text-transform: uppercase;
+        span {
+            color: $second-color;
+        }
+    }
+    &__descr {
+        position: absolute;
+        right: -50px;
+        bottom: 0px;
+        min-width: 220px;
+        color: #fff;
+        font-size: 46px;
+        line-height: 42px;
+        font-weight: 400;
+    }
+}

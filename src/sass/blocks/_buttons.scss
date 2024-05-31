@@ -1,0 +1,6 @@
+.button {
+    &-more {
+        position: relative;
+        @include button-more;
+    }
+}

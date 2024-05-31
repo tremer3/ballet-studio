@@ -1,0 +1,11 @@
+.title {
+    padding-top: 130px;
+    font-size: 105px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    &__purple {
+        color: $first-color;
+    }
+}
