@@ -1,0 +1,47 @@
+.classes {
+    background-color: $first-color;
+    &__subtitle {
+        padding-top: 50px;
+        color: #fff;
+        font-size: 46px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 100px;
+        min-height: 530px;
+    }
+    &__img {
+        width: 60%;
+    }
+    &__inner {
+        width: 40%;
+        padding: 95px 0 80px 99px;
+        background-color: #fff;
+    }
+    &__title {
+        font-size: 50px;
+        color: $first-color;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__descr {
+        padding-top: 45px;
+        font-size: 34px;
+        color: $first-color;
+        font-weight: 400;
+        line-height: 39.56px;
+        letter-spacing: 1px;
+    }
+    
+}

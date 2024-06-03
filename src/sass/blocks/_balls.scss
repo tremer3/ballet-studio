@@ -9,3 +9,14 @@
     opacity: .2;
     bottom: -210px;
 }
+.semicircle-ball {
+    position: absolute;
+    right: 25%;
+    transform: translateX(-25%);
+    bottom: -100px;
+}
+.circle-ball {
+    position: absolute;
+    left: 5px;
+    bottom: -35%;
+}
