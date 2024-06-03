@@ -21,10 +21,8 @@
         padding-top: 100px;
         min-height: 530px;
     }
-    &__img {
-        width: 60%;
-    }
     &__inner {
+        z-index: 2;
         width: 40%;
         padding: 95px 0 80px 99px;
         background-color: #fff;
