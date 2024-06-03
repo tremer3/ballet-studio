@@ -1,0 +1,21 @@
+.our-studio {
+    min-height: 795px;
+    background: url(../../img/our-background.jpg) center center / cover no-repeat;
+    &__item {
+        position: relative;
+        width: 413px;
+        text-align-last: left;
+    }
+    &__descr {
+        font-size: 35.42px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 39.58px;
+    }
+    &__ball {
+        position: absolute;
+        right: -70px;
+        bottom: -15px;
+        opacity: .6;
+    }
+}
