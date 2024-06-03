@@ -3,8 +3,7 @@
     background: url(../../img/our-background.jpg) center center / cover no-repeat;
     &__item {
         position: relative;
-        width: 413px;
-        text-align-last: left;
+        max-width: 413px;
     }
     &__descr {
         font-size: 35.42px;

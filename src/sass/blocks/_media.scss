@@ -11,6 +11,24 @@
         right: -15px;
         margin-right: 25px;
     }
+
+    // Services
+    .services__benefits {
+        padding: 95px 20px 0 20px;
+        padding-top: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services__item {
+        margin: 30px;
+        justify-content: center;
+        &:last-child {}
+    }
+
+    // Our-studio 
+    .our-studio__item {
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 902px) {
@@ -57,6 +75,21 @@
      // Balls 
     .pink-ball {
         opacity: .4;
+    }
+
+    // Our-studio
+    .our-studio__item {
+        text-align: center;
+    }
+
+    // Title 
+    .title_left {
+        text-align: center;
+    }
+
+    // Our-studio /ball
+    .our-studio__ball {
+        display: none;
     }
 }
 
