@@ -75,7 +75,10 @@
     // Header 
     .header {
         &__list {
-            display: none;
+            padding: 34px 0 0 50px;
+        }
+        &__link {
+            letter-spacing: 0;
         }
     }
 
@@ -99,10 +102,14 @@
 }
 
 @media (max-width: 768px) {
+    //  Header
+    .header__link {
+        font-size: 30px;
+    }
+
     // Promo
     .promo__title {
         margin-right: 10px;
-        z-index: 1000;
     }
     .promo__descr {
         display: none;
@@ -119,6 +126,32 @@
 
 
 @media (max-width: 576px) {
+    // Header
+    .header {
+        z-index: 1000;
+        &__list {
+            position: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100vh;
+            padding: 20px 15px;
+            background-color: rgba(80,28,132, .8);
+            &_active {
+                left: 0;
+            }
+        }
+        &__item {
+            margin: 10px 0;
+        }
+        &__link {
+            font-size: 50px;
+        }
+    }
+
     // Promo
     .promo {
         padding-top: 30px;

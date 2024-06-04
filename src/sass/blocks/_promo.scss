@@ -10,6 +10,7 @@
         justify-content: space-between;
     }
     &__title {
+        z-index: -1;
         width: 345px;
         margin-left: 20px;
         font-size: 146px;
