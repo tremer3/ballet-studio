@@ -1,14 +1,5 @@
 .classes {
     background-color: $first-color;
-    &__subtitle {
-        padding-top: 50px;
-        color: #fff;
-        font-size: 46px;
-        font-weight: 400;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
