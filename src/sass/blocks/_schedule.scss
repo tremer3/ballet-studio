@@ -4,13 +4,15 @@
     &__wrapper {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         margin-top: 95px;
-        min-width: 1176px;
+        max-width: 1176px;
         min-height: 662px;
         border-radius: 15px;
         background-color: $second-color
     }
     &__item {
+
         padding-top: 90px;
     }
     &__title {

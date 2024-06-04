@@ -78,6 +78,14 @@
             display: none;
         }
     }
+
+    // Schedule 
+    .schedule__item {
+        padding: 90px 25px 25px 20px;
+    }
+    .schedule__title, .schedule__descr {
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
