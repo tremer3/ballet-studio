@@ -86,6 +86,16 @@
     .schedule__title, .schedule__descr {
         text-align: center;
     }
+
+    // Footer
+    .footer__item {
+        padding: 0 40px 0 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer__social {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -155,6 +165,18 @@
     .teachers__descr {
         padding: 30px 0 50px 0;
         text-align: center;
+    }
+
+    // Footer
+    .footer__title {
+        font-size: 70px;
+    }
+    .footer__descr {
+        font-size: 30px;
+        letter-spacing: 1px;
+        br {
+            display: none;
+        }
     }
 }
 
