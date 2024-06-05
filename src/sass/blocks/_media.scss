@@ -1,3 +1,17 @@
+@media (max-width: 1900px) {
+    // Header 
+    .header__list {
+        &_fixed {
+            justify-content: center;
+            padding: 0;
+            li {
+                padding: 0 20px;
+            }
+        }
+    }
+}
+
+
 @media (max-width: 1400px) {
     // Header 
     .header {
@@ -79,6 +93,15 @@
         }
         &__link {
             letter-spacing: 0;
+        }
+    }
+    .header__list {
+        &_fixed {
+            justify-content: center;
+            padding: 0;
+            li {
+                padding: 0 20px;
+            }
         }
     }
 

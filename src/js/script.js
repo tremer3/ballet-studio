@@ -15,3 +15,31 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+
+$(function() {
+    
+    /* Fixed Header */ 
+    let header = $(".header__list");
+    let promo = $(".promo");
+    let promoH = promo.innerHeight();;
+    let scrollPos = $(window).scrollTop();
+    let nav = $(".header__list");
+    let navToggle = $(".header__listToggle");
+
+    checkScroll(scrollPos, promoH)
+
+    $(window).on("scroll resize", function() {
+        promoH = promo.innerHeight();
+        scrollPos = $(this).scrollTop();
+
+        checkScroll(scrollPos, promoH);
+    });
+
+    function checkScroll(scrollPos, promoH) {
+        if( scrollPos > promoH ) {
+            header.addClass("header__list_fixed");
+        } else {
+            header.removeClass("header__list_fixed");
+        }
+    }
+});

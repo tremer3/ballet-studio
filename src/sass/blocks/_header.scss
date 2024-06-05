@@ -2,11 +2,26 @@
     position: relative;
     display: flex;
     &__list {
+        top: 80px;
+        right: 45px;
         width: 70%;
         padding: 34px 0 0 130px;
         display: flex;
         justify-content: space-between;
         margin: 0; 
+        &_fixed {
+            z-index: 10000;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            right: 0;
+            background-color: rgba(175, 116, 153, .7);
+            border-radius: 3px;
+            ul {
+                padding: 0;
+                justify-content: center;
+            }
+        }
     }
     &__item {
         list-style-type: none;
