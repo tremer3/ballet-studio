@@ -140,6 +140,7 @@
             height: 100vh;
             padding: 20px 15px;
             background-color: rgba(80,28,132, .8);
+            transition: 0.5s all;
             &_active {
                 left: 0;
             }
@@ -149,6 +150,35 @@
         }
         &__link {
             font-size: 50px;
+        }
+    }
+    .hamburger {
+        display: block;
+        position: fixed;
+        right: 20px;
+        width: 30px;
+        height: 18px;
+        span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            margin-bottom: 4px;
+            background-color: #af7499;
+            transition: 0.5s all;
+        }
+        &_active {
+            span {
+                margin-bottom: -2px;
+				&:nth-child(1) {
+					transform: translateY(3px) rotate(-45deg);
+                }
+				&:nth-child(2) {
+					display: none;
+                }
+				&:nth-child(3) {
+					transform: translateY(3px) rotate(45deg);
+                }
+            }
         }
     }
 
@@ -218,3 +248,4 @@
         padding-top: 10px;
     }
 }
+
